@@ -870,10 +870,10 @@ def lineBot(op):
                 elif text.lower() == 'ปิดออก':
                     settings["autoLeave"] = False
                     line.sendMessage(to, "ปิดออกแชทรวมแล้ว")
-                elif text.lower() == 'เปิดอ่าน':
+                elif text.lower() == '.เปิดอ่าน':
                     settings["autoRead"] = True
                     line.sendMessage(to, "เปิดอ่านแล้ว")
-                elif text.lower() == 'ปิดอ่าน':
+                elif text.lower() == '.ปิดอ่าน':
                     settings["autoRead"] = False
                     line.sendMessage(to, "ปิดอ่านแล้ว")
                 elif text.lower() == 'เปิดเชคติ้ก':
